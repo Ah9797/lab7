@@ -3,7 +3,7 @@ function init(){
 function Aclick(){
   var inputentry = document.getElementById('entryinput').value;
   var outputresult = document.getElementById('textoutput').value;
-  outputresult.innerHTML = inputentry;
+  outputresult = inputentry;
   alert("Alexander Hu: " + inputentry);
   }
 var b = document.getElementById('entrybutton');
