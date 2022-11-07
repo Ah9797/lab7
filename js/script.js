@@ -2,7 +2,7 @@ function init(){
 //add your javascrip between these two lines of code
 function Aclick(){
   var inputentry = document.getElementById('entryinput').value;
-  var outputresult = document.getElementById('textoutput');
+  var outputresult = document.getElementById('textoutput').value;
   outputresult.innerHTML = inputentry;
   alert("Alexander Hu: " + inputentry);
   }
