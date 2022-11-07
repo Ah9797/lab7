@@ -4,7 +4,7 @@ function Aclick(){
   var inputentry = document.getElementById('entryinput').value;
   var outputresult = document.getElementById('textoutput');
   outputresult.innerHTML = inputentry;
-  alert("Alexander Hu: " + outputresult);
+  alert("Alexander Hu: " + inputentry);
   }
 var b = document.getElementById('entrybutton');
 b.addEventListener('click', Aclick);
